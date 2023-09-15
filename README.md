@@ -13,4 +13,4 @@ Level Up: If you successfully repeat the sequence, you'll advance to the next le
 
 Game Over: If you make a mistake and click the wrong color or sound, the game will end. You'll see your score, which is the highest level you reached.
 
-Access it here: 
+Access it here: https://ironjosh786.github.io/Simon-Game/
