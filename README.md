@@ -2,6 +2,7 @@
 Simon Game is a classic memory game where you need to repeat a sequence of colors and sounds. Test your memory and see how far you can go!
 
 How to Play
+
 Start the Game: Press any key on your keyboard to start the game.
 
 Follow the Sequence: Watch and listen to the sequence of colors and sounds played by the game.
