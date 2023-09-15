@@ -16,7 +16,7 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 2rem;
-  margin: 2rem;
+  margin-top: 2rem;
   color: #FEF2BF;
 }
 .container {
@@ -28,12 +28,14 @@ body {
   transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+  overflow: hidden;
 }
 .btn {
   height: 13.12em;
   width: 13.12em;
   position: absolute;
   cursor: pointer;
+  overflow: hidden;
 }
 .green {
   background-color: #027802;
