@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    document.addEventListener("keypress", function() {
+    document.addEventListener("click", function() {
         for(let i=0; i<4; i++) {
             document.querySelectorAll(".btn")[i].addEventListener("click", function() {
                 id = this.id;
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         if(!gameStarted) {
-            document.removeEventListener("keypress", arguments.callee);
+            document.removeEventListener("click", arguments.callee);
             gameStarted = true;
             startGame();
         }
