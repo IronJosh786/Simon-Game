@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  text-align: center;
+  background-color: #212121;
+}
+.wrapper {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin: 2rem;
+  color: #FEF2BF;
+}
+.container {
+  height: 31.25em;
+  width: 31.25em;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.btn {
+  height: 13.12em;
+  width: 13.12em;
+  position: absolute;
+  cursor: pointer;
+}
+.green {
+  background-color: #027802;
+  border-radius: 13em 0 0 0;
+  top: 1.87em;
+  left: 1.87em;
+}
+.red {
+  background-color: #950303;
+  border-radius: 0 13em 0 0;
+  top: 1.87em;
+  right: 1.87em;
+}
+.blue {
+  background-color: #01018a;
+  bottom: 1.87em;
+  right: 1.87em;
+  border-radius: 0 0 13em 0;
+}
+.yellow {
+  background-color: #919102;
+  bottom: 1.87em;
+  left: 1.87em;
+  border-radius: 0 0 0 13em;
+}
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
